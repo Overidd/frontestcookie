@@ -26,7 +26,7 @@ export const config = {
 
 const fetchValidatToken = async (token) => {
    try {
-      const response = await fetch('http://localhost:8000/api/token/verify/', {
+      const response = await fetch('https://testautocookie.onrender.com/api/token/verify/', {
          method: 'POST',
          headers: {
             'Content-Type': 'application/json'
